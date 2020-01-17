@@ -3,7 +3,7 @@ Hello world - program którego celem jest wypisanie na wyjsciu tekstu "Hello wor
 
 ## [Laboratoria](https://github.com/robss9419/lenovo/tree/master/Laboratoria)
 
-## [Elementarz 1](https://github.com/robss9419/lenovo/tree/master/elementarz)
+## [Elementarz_1](https://github.com/robss9419/lenovo/tree/master/elementarz)
 
 ## [Elementarz_2](https://github.com/robss9419/lenovo/tree/master/elementarz_2)
 
