@@ -1,40 +1,74 @@
-#include <stdio.h>
-#include <stdlib.h>
+/* program ktory wczytuje z stdin 6 liczb calkowitych do tablicy, a nastepnie wyswietla zawartosc tablicy od poczatku i od konca */
 
-void normalnie(char *tab, int rozm)
+#include <stdio.h>
+#define ROZMIAR 6
+
+void prawidlowo(int tab[], int n)
 {
-    int i;
-    printf("\nPrawidłowa kolejność tablicy:\n");
-    for (i=0; i<=rozm; i++)
+    printf("Prawidlowa kolejnosc tablicy: ");
+    for (int i=0; i<n; i++)
     {
-        printf("%c\n", tab[i]);
+        printf("%d", tab[i]);
     }
 }
 
-void odwrocenie(char *tab, int rozm)
+void odwrotnie(int tab[], int n)
 {
-    int i;
-    printf("Odwrócona kolejność tablicy:");
-    for (i=rozm; i>=0; i--)
+    printf("Odwrotna kolejnosc tablicy: ");
+    for (int i=n-1; i>=0; i--)
     {
-        printf("%c\n", tab[i]);
+        printf("%d", tab[i]);
     }
 }
 
 int main()
 {
-    int rozm,i;
-    char *tab;
-    printf("Podaj długość tablicy:\n");
-    scanf("%d", &rozm);
-    tab = (char *)
-    malloc(rozm+1);
-        printf("Podaj elementy tablicy: \n");
-        for (i=0; i<rozm; i++)
-        {
-            scanf("%s",&tab[i]);
-        }
-    normalnie(tab, rozm);
-    odwrocenie(tab, rozm);
-    return 0;
+    int tab[ROZMIAR];
+    printf("Podaj liczby do tablicy:\n");
+    for (int i=0; i<ROZMIAR; i++)
+    {
+        scanf("%d", &tab[i]);
+    }
+    prawidlowo(tab, ROZMIAR);
+    printf("\n");
+    odwrotnie(tab, ROZMIAR);
+    printf("\n");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,13 +1,20 @@
-/* program wyliczajacy sume liczb naturalnych od 1 do liczby n podanej przez uzytkownika */
-
 #include <stdio.h>
+
+void get_int_and_check(int *a){
+    get_int(a);
+    if (a<1){
+        printf("robisz sobie jaja\n");
+        exit(1);
+    }
+    if (check)
+}
 
 int main()
 {
     int liczba;
     int i=1;
     int wynik=0;
-    printf("Podaj liczbe wieksza od 0: ");
+    printf("Podaj liczbe: ");
     scanf("%d", &liczba);
     if (liczba > 0)
     {
@@ -15,7 +22,7 @@ int main()
     while(i <= liczba)
     {
         wynik += i;
-        //printf("%d\n", i);
+        printf("%d\n", i);
         i++;
     }
     
@@ -23,7 +30,7 @@ int main()
     }
 
     else {
-        printf("Podana liczba jest mniejsza od 1 :(\n");
+        printf("Podano złą liczbę:(\n");
     }
     return 0;
 }
