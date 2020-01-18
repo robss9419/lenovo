@@ -1,10 +1,11 @@
+
 #include <stdio.h>
 #include "robs.h"
 
 int main()
 {
-  printf("Podaj liczbe całkowitą: \n");
-  scanf("%d", &n);
-  collatz();
+  int n;
+  n = wczytaj();
+  collatz(n);
   return 0;
 }

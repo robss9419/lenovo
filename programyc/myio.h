@@ -1,5 +1,6 @@
 /* MOJA BIBLIOTEKA */
 #include <math.h>
+# define M_PI 3.14159265358979323846
 
 void hej(void)
 {
@@ -9,7 +10,7 @@ void hej(void)
 void radian(double deg)
 {
   double rad;
-  rad = 2 * M_PI * (deg / 360);
+  rad = (2 * M_PI * (deg / 360));
    printf("%lf deg = %lf rad\n", deg, rad);
 }
 
