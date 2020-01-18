@@ -1,8 +1,8 @@
 #include <string.h>
-#define LIMIT 30
+#define LIMIT 15
 #define ODSTEP ' '
 #define ZNAK '*'
-#define L "NUMB"
+#define L "NUM"
 
 int r=1, r1;
 
@@ -44,15 +44,10 @@ void collatz(int h)
     r2++;
   }
   char temp [16];
-  sprintf(temp,"%d", n);
-  odstepy(ODSTEP, 5 - strlen(L));
-  printf("|  STEPS");
-  printf("\n");
-  odstepy('-', LIMIT);
-  printf("\n");
-  printf("%d", r);
-  odstepy(ODSTEP, 5 - strlen(n));
-  printf("|  %d\n",2 r2);
+  sprintf(temp,"%d", r);
+  printf("  %d", r);
+  odstepy(ODSTEP, 5 - strlen(temp));
+  printf("|  %d\n", r2);
   r++;
   }
 }
