@@ -1,3 +1,5 @@
+/* generowanie wzorow */
+
 #include <stdio.h>
 #include <stdlib.h>
 

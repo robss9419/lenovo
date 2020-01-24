@@ -1,17 +1,11 @@
 #include <string.h>
 #include <stdio.h>
 
-int euklides(int a, int b);
-//oblicza algorytm euklidesa rekurencyjnie
-
-void nwd(int a, int b, int c);
-//wyswietla wynik euklides
-
 void tabs(char znak, int ile);
 //wypisuje znaki
 
-int get_int();
-//pobiera i zwraca jedną zmienną
+int load_int();
+//zwraca zmienna
 
 void collatz(int i);
 
@@ -26,6 +20,3 @@ int max_int(int max, int n);
 
 void print_table();
 //tworzy naglowki tabeli
-
-void print_results(int a, int b, int c);
-//wyswietla wynik, a = zmienna, b = zmienna, c = wynik po obliczeniach

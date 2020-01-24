@@ -5,7 +5,7 @@ void print_jbernoulli_table(int nrow);
 
 int main(int argc, char const *argv[])
 {
-  print_jbernoulli_table(9);
+  print_jbernoulli_table(20);
 }
 
 void print_jbernoulli_table(int nrow)

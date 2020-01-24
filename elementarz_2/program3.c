@@ -1,3 +1,5 @@
+/* program wypisuje przyblizone wartosci liczby pi przez podane sumy */
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

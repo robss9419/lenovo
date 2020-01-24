@@ -4,9 +4,7 @@
 #include "robs.h"
 
 int main()
-{
-  int n;
-  n = wczytaj();
-  collatz(n);
+{ 
+  collatz(get_int());
   return 0;
 }

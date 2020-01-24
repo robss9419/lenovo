@@ -23,5 +23,5 @@ long long int calculate_sum(int y, int upper_limit)
 
 void print_results(int y, int s, int upper_limit)
 {
-  printf("1^%d + 2^%d + ... + %d^%d = %32d\n", y, y, upper_limit, y, s);
+  printf("1^%3d + 2^%3d + ... + %d^%5d = %32d\n", y, y, upper_limit, y, s);
 }

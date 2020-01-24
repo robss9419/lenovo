@@ -7,5 +7,5 @@ int main()
     {
         tab[i] = 128;
     }
-    printf("%d\n", tab[5]);
+    printf("%d\n", tab[3]);
 }
