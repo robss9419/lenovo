@@ -4,6 +4,7 @@
 
 int main ()
 {
+printf("CTRL + D - konczy program\n");
 int c;
 int nb, nt, nl;
 nt = 0;

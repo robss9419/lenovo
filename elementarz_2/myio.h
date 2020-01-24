@@ -1,11 +1,20 @@
 #include <string.h>
 #include <stdio.h>
 
+int raising_to_a_power(int n, int k);
+//podnoszenie do potegi, rekurencyjnie
+
+int fibonacci(int n);
+//oblicza wartosc n-tej liczby w ciagu fibonacciego, funkcja uzywa ang. double recursion
+
+int nwd(int a, int b);
+//oblicza algorytm euklidesa rekurencyjnie
+
 void tabs(char znak, int ile);
 //wypisuje znaki
 
-int load_int();
-//zwraca zmienna
+int get_int();
+//pobiera i zwraca jedną zmienną
 
 void collatz(int i);
 
@@ -20,3 +29,6 @@ int max_int(int max, int n);
 
 void print_table();
 //tworzy naglowki tabeli
+
+void print_results(int a, int b, int c);
+//wyswietla wynik, a = zmienna, b = zmienna, c = wynik po obliczeniach

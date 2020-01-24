@@ -1,11 +1,14 @@
 #include <string.h>
 #include <stdio.h>
 
-int euklides(int a, int b);
-//oblicza algorytm euklidesa rekurencyjnie
+int raising_to_a_power(int n, int k);
+//podnoszenie do potegi, rekurencyjnie
 
-void nwd(int a, int b, int c);
-//wyswietla wynik euklides
+int fibonacci(int n);
+//oblicza wartosc n-tej liczby w ciagu fibonacciego, funkcja uzywa ang. double recursion
+
+int nwd(int a, int b);
+//oblicza algorytm euklidesa rekurencyjnie
 
 void tabs(char znak, int ile);
 //wypisuje znaki
