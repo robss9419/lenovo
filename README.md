@@ -17,4 +17,4 @@
 
 ## [Funkcje](https://github.com/robss9419/lenovo/tree/master/funkcje)
 
-##[Rekurencje](https://github.com/robss9419/lenovo/tree/master/Rekurencje)
+## [Rekurencje](https://github.com/robss9419/lenovo/tree/master/Rekurencje)
