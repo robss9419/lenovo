@@ -16,3 +16,5 @@
 ## [Wskazniki](https://github.com/robss9419/lenovo/tree/master/wskazniki)
 
 ## [Funkcje](https://github.com/robss9419/lenovo/tree/master/funkcje)
+
+##[Rekurencje](https://github.com/robss9419/lenovo/tree/master/Rekurencje)
